@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{9661F86D-BE2A-484B-BEB4-3EA411255D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookSyncService", "Server\OutlookSyncService\OutlookSyncService.csproj", "{5F47A2C9-4C63-4A22-A11F-700D201CAB3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{BCE8FD46-DC02-493A-969E-E4496EECFA45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevelopexOutlookSync.Common", "Common\DevelopexOutlookSync.Common\DevelopexOutlookSync.Common.csproj", "{365020BA-45AC-4436-AB53-98F2F355A0E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookSyncService.Library", "Server\OutlookSyncService.Library\OutlookSyncService.Library.csproj", "{D8DDDFAF-D662-4303-91C0-66EF7CF2490C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F47A2C9-4C63-4A22-A11F-700D201CAB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F47A2C9-4C63-4A22-A11F-700D201CAB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F47A2C9-4C63-4A22-A11F-700D201CAB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F47A2C9-4C63-4A22-A11F-700D201CAB3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{365020BA-45AC-4436-AB53-98F2F355A0E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365020BA-45AC-4436-AB53-98F2F355A0E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365020BA-45AC-4436-AB53-98F2F355A0E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365020BA-45AC-4436-AB53-98F2F355A0E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DDDFAF-D662-4303-91C0-66EF7CF2490C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DDDFAF-D662-4303-91C0-66EF7CF2490C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DDDFAF-D662-4303-91C0-66EF7CF2490C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DDDFAF-D662-4303-91C0-66EF7CF2490C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F47A2C9-4C63-4A22-A11F-700D201CAB3B} = {9661F86D-BE2A-484B-BEB4-3EA411255D94}
+		{D8DDDFAF-D662-4303-91C0-66EF7CF2490C} = {9661F86D-BE2A-484B-BEB4-3EA411255D94}
+		{365020BA-45AC-4436-AB53-98F2F355A0E7} = {BCE8FD46-DC02-493A-969E-E4496EECFA45}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
