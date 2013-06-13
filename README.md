@@ -5,6 +5,7 @@ Outlook e-mails Synchronization WebService
 
 Online manual can be found here: http://outlook-sync.com/manual/
 
-Outlook-Smartphone sync: http://outlook-sync.com/smartphone/
 
-Outlook-Google sync: http://outlook-sync.com/google/
+Outlook Sync Webservice Installation: http://outlook-sync.com/manual/#outlook-sync-webservice-installation 
+
+Outlook Sync Webservice Configuration: http://outlook-sync.com/manual/#outlook-sync-webservice-configuration
